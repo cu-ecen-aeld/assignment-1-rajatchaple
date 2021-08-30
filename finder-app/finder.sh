@@ -22,14 +22,16 @@ fi
 
 #echo $filesdir
 
-#nooffiles=$(sudo find $filesdir -type f -print | ls)
-nooffiles=$(find $filesdir -type f | wc -l)
+#searching fo a strings within directory and counting the files with matches
+nooffiles=$(grep -lr $searchstr $filesdir | wc -l)
+#nooffiles=$(find $filesdir -type f | wc -l)
 #echo $nooffiles
 
 filesdir=$1
 searchstr=$2
 # grep -rh "echo" $filesdir
 
+#counting the lines with matches
 no_of_matches_per_file=$(grep -rch $searchstr $filesdir)
 #echo $no_of_matches_per_file
 

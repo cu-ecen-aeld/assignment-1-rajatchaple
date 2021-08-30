@@ -1,0 +1,2925 @@
+[2021-08-30 16:28:58Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-08-30 16:28:58Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:58Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:58Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-30 16:28:58Z INFO Worker] Version: 2.280.3
+[2021-08-30 16:28:58Z INFO Worker] Commit: 409920e9f03bd38fe6e58807f069394993ce32e4
+[2021-08-30 16:28:58Z INFO Worker] Culture: en-IN
+[2021-08-30 16:28:58Z INFO Worker] UI Culture: en-IN
+[2021-08-30 16:28:58Z INFO Worker] Waiting to receive the job message from the channel.
+[2021-08-30 16:28:58Z INFO ProcessChannel] Receiving message of length 22016, with hash '1d0fbd7bc374059ffb3ed554da0cfb4cdfc85c16e12055c6716a643a66dcb560'
+[2021-08-30 16:28:58Z INFO Worker] Message received.
+[2021-08-30 16:28:59Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/github-actions.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 17,
+        "col": 19,
+        "lit": "Checkout submodules"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "5ae3cfb7-d7d4-55cf-e765-f7829c54f157",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "textbook/git-checkout-submodule-action",
+        "ref": "2.1.1",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__textbook_git-checkout-submodule-action",
+      "condition": "success()",
+      "id": "d67a9bbf-0424-50d4-7679-7df372696566",
+      "name": "__textbook_git-checkout-submodule-action"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 19,
+              "col": 18,
+              "lit": "./full-test.sh"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "0358dd64-d4c6-52fe-1d1f-54fa3c1bbc5e",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system": {
+      "value": "actions"
+    },
+    "system.hosttype": {
+      "value": "actions"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.collectionId": {
+      "value": "7db1d975-8312-43d3-8ffb-532d6ced10ac"
+    },
+    "system.collectionUri": {
+      "value": "https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/"
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/"
+    },
+    "system.pipelineStartTime": {
+      "value": "2021-08-30 16:28:55+00:00"
+    },
+    "system.definitionId": {
+      "value": "3"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "3"
+    },
+    "build.containerId": {
+      "value": "169690"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/github-actions.yml"
+    },
+    "system.definitionName": {
+      "value": "assignment-1-rajatchaple"
+    },
+    "system.planId": {
+      "value": "0b0531e6-68c2-469d-b9e6-553586f361c2"
+    },
+    "system.timelineId": {
+      "value": "0b0531e6-68c2-469d-b9e6-553586f361c2"
+    },
+    "system.phaseDisplayName": {
+      "value": "full-test"
+    },
+    "system.phaseId": {
+      "value": "ab5579c2-8327-5dba-a8ef-b554bdd0f462"
+    },
+    "system.phaseName": {
+      "value": "full-test"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "full-test.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "full-test"
+    },
+    "system.jobDisplayName": {
+      "value": "full-test"
+    },
+    "system.jobId": {
+      "value": "a047640a-23da-5e9b-1ef8-917a09b3753a"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 15,
+    "planId": "0b0531e6-68c2-469d-b9e6-553586f361c2",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/3",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "assignment-1-rajatchaple"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "cu-ecen-aeld"
+    }
+  },
+  "timeline": {
+    "id": "0b0531e6-68c2-469d-b9e6-553586f361c2",
+    "changeId": 20,
+    "location": null
+  },
+  "jobId": "a047640a-23da-5e9b-1ef8-917a09b3753a",
+  "jobDisplayName": "full-test",
+  "jobName": "__default",
+  "jobContainer": {
+    "type": 0,
+    "file": 1,
+    "line": 13,
+    "col": 20,
+    "lit": "cuaesd/aesd-autotest:assignment1"
+  },
+  "requestId": 6,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "7db1d975-8312-43d3-8ffb-532d6ced10ac",
+          "ServerName": "EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "10720103ef974c6531ced4127600ff0f0a05230d"
+        },
+        {
+          "k": "repository",
+          "v": "cu-ecen-aeld/assignment-1-rajatchaple"
+        },
+        {
+          "k": "repository_owner",
+          "v": "cu-ecen-aeld"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/cu-ecen-aeld/assignment-1-rajatchaple.git"
+        },
+        {
+          "k": "run_id",
+          "v": "1182922386"
+        },
+        {
+          "k": "run_number",
+          "v": "3"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "actor",
+          "v": "rajatchaple"
+        },
+        {
+          "k": "workflow",
+          "v": "assignment-test"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "10720103ef974c6531ced4127600ff0f0a05230d"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "ba627f9a64f739ff0db28f9047a0d65be3971650"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "rajat.chaple@yahoo.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "rajat"
+                              },
+                              {
+                                "k": "username",
+                                "v": "rajatchaple"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "rajat.chaple@yahoo.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "rajat"
+                              },
+                              {
+                                "k": "username",
+                                "v": "rajatchaple"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "10720103ef974c6531ced4127600ff0f0a05230d"
+                        },
+                        {
+                          "k": "message",
+                          "v": "completed 0.0.1"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-08-30T10:26:26-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "794efbca33cdb708d0b60c56b5da531233d03a4a"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple/commit/10720103ef974c6531ced4127600ff0f0a05230d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple/compare/ba627f9a64f7...10720103ef97"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "rajat.chaple@yahoo.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "rajat"
+                          },
+                          {
+                            "k": "username",
+                            "v": "rajatchaple"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "rajat.chaple@yahoo.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "rajat"
+                          },
+                          {
+                            "k": "username",
+                            "v": "rajatchaple"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "10720103ef974c6531ced4127600ff0f0a05230d"
+                    },
+                    {
+                      "k": "message",
+                      "v": "completed 0.0.1"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2021-08-30T10:26:26-06:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "794efbca33cdb708d0b60c56b5da531233d03a4a"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple/commit/10720103ef974c6531ced4127600ff0f0a05230d"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "organization",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                    },
+                    {
+                      "k": "description",
+                      "v": "Course Github Organization for University of Colorado at Boulder ECEN 5713 Advanced Embedded Software Development (previously 5013-002)"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/events"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/hooks"
+                    },
+                    {
+                      "k": "id",
+                      "v": 49594950.0
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/issues"
+                    },
+                    {
+                      "k": "login",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/members{/member}"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                    },
+                    {
+                      "k": "public_members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/public_members{/member}"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/repos"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "77606072+rajatchaple@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "rajatchaple"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1629933938.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "assignment-1-rajatchaple created by GitHub Classroom"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "cu-ecen-aeld/assignment-1-rajatchaple"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/cu-ecen-aeld/assignment-1-rajatchaple.git"
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple"
+                    },
+                    {
+                      "k": "id",
+                      "v": 399982355.0
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "TypeScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "key",
+                            "v": "mit"
+                          },
+                          {
+                            "k": "name",
+                            "v": "MIT License"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDc6TGljZW5zZTEz"
+                          },
+                          {
+                            "k": "spdx_id",
+                            "v": "MIT"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/licenses/mit"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "assignment-1-rajatchaple"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDEwOlJlcG9zaXRvcnkzOTk5ODIzNTU="
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "organization",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": null
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/cu-ecen-aeld"
+                          },
+                          {
+                            "k": "id",
+                            "v": 49594950.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "name",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Organization"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1630340864.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 23.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:cu-ecen-aeld/assignment-1-rajatchaple.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/teams"
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-rajatchaple/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2021-08-30T15:59:14Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/77606072?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/rajatchaple/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/rajatchaple/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/rajatchaple/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/rajatchaple/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/rajatchaple"
+                    },
+                    {
+                      "k": "id",
+                      "v": 77606072.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "rajatchaple"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjc3NjA2MDcy"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/rajatchaple/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/rajatchaple/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/rajatchaple/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/rajatchaple/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/rajatchaple/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/rajatchaple"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        }
+      ]
+    },
+    "needs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2021-08-30 16:28:59Z INFO JobRunner] Job ID a047640a-23da-5e9b-1ef8-917a09b3753a
+[2021-08-30 16:28:59Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/
+[2021-08-30 16:28:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-30 16:28:59Z INFO Worker] Listening for cancel message from the channel.
+[2021-08-30 16:28:59Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2021-08-30 16:29:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-30 16:29:00Z INFO JobServerQueue] Start process web console line queue.
+[2021-08-30 16:29:00Z INFO JobServerQueue] Start process file upload queue.
+[2021-08-30 16:29:00Z INFO JobServerQueue] Start process timeline update queue.
+[2021-08-30 16:29:00Z INFO ExecutionContext] Initialize GitHub context
+[2021-08-30 16:29:00Z INFO ExecutionContext] Initialize Env context
+[2021-08-30 16:29:00Z INFO ConfigurationStore] currentAssemblyLocation: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker.dll
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO ConfigurationStore] binPath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO ConfigurationStore] RootFolder: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known config file 'Runner': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.runner'
+[2021-08-30 16:29:00Z INFO ConfigurationStore] ConfigFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.runner
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-30 16:29:00Z INFO ConfigurationStore] CredFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_migrated'
+[2021-08-30 16:29:00Z INFO ConfigurationStore] MigratedCredFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_migrated
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known config file 'Service': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.service'
+[2021-08-30 16:29:00Z INFO ConfigurationStore] ServiceConfigFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.service
+[2021-08-30 16:29:00Z INFO ConfigurationStore] Read setting file: 299 chars
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:00Z INFO JobRunner] Starting the job execution context.
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO JobRunner] Validating directory permissions for: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Tools': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_tool'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:00Z INFO JobRunner] Getting job extension.
+[2021-08-30 16:29:00Z INFO JobRunner] Initialize job. Getting all job steps.
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known config file 'SetupInfo': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.setup_info'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO PipelineDirectoryManager] Loading tracking config if exists: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_PipelineMapping/cu-ecen-aeld/assignment-1-rajatchaple/PipelineFolder.json
+[2021-08-30 16:29:00Z INFO PipelineDirectoryManager] Updating job run properties.
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Tools': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_tool'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Externals': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/externals'
+[2021-08-30 16:29:00Z INFO JobExtension] Downloading actions
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:00Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:00Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f' into /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/_temp_e517fdeb-a617-4b9c-8c8b-a9db515574ac/155f970f-92f1-4f94-908e-969ac0348e1f.tar.gz.
+[2021-08-30 16:29:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10a93eec-3348-4828-b0dd-e3671b1a6e23', success rate: 1/1.
+[2021-08-30 16:29:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10a93eec-3348-4828-b0dd-e3671b1a6e23', success rate: 1/1.
+[2021-08-30 16:29:01Z INFO ActionManager] Which: 'tar'
+[2021-08-30 16:29:01Z INFO ActionManager] Location: '/usr/bin/tar'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/_temp_e517fdeb-a617-4b9c-8c8b-a9db515574ac/155f970f-92f1-4f94-908e-969ac0348e1f.tar.gz"'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/_temp_e517fdeb-a617-4b9c-8c8b-a9db515574ac/_staging'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5245.
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper] Process started with process id 5245, waiting for process exit.
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:01Z INFO ProcessInvokerWrapper] Finished process 5245 with exit code 0, and elapsed time 00:00:00.0199038.
+[2021-08-30 16:29:01Z INFO ActionManager] Finished getting action repository.
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:01Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:01Z INFO ActionManager] Save archive 'https://api.github.com/repos/textbook/git-checkout-submodule-action/tarball/0cb23c7e6a67085e1dc5e884920bd620f7b9c469' into /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/_temp_232ea671-48a1-4bd5-b04c-e01bd1383335/777e9cfd-ad00-4ac8-a86f-c0b7d14d7f10.tar.gz.
+[2021-08-30 16:29:01Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10a93eec-3348-4828-b0dd-e3671b1a6e23', success rate: 1/1.
+[2021-08-30 16:29:02Z INFO ActionManager] Which: 'tar'
+[2021-08-30 16:29:02Z INFO ActionManager] Location: '/usr/bin/tar'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/_temp_232ea671-48a1-4bd5-b04c-e01bd1383335/777e9cfd-ad00-4ac8-a86f-c0b7d14d7f10.tar.gz"'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/_temp_232ea671-48a1-4bd5-b04c-e01bd1383335/_staging'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5248.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5248, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5248 with exit code 0, and elapsed time 00:00:00.0065968.
+[2021-08-30 16:29:02Z INFO ActionManager] Finished getting action repository.
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node12-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "step-env",
+  "step-with"
+]
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-08-30 16:29:02Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManager] Load action that reference repository from '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/actions/checkout/v2'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-08-30 16:29:02Z INFO ActionManager] Action pre node.js file: N/A.
+[2021-08-30 16:29:02Z INFO ActionManager] Action node.js file: dist/index.js.
+[2021-08-30 16:29:02Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Ignore action property author.
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Ignore action property branding.
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout submodules",
+  "description": "Recursively checks out any submodules in your repository",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 5,
+          "col": 3,
+          "lit": "remote"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "container",
+    "hasPre": false,
+    "hasPost": false,
+    "image": "Dockerfile",
+    "entryPoint": null,
+    "arguments": {
+      "type": 1,
+      "file": 3,
+      "line": 12,
+      "col": 3,
+      "seq": [
+        {
+          "type": 3,
+          "file": 3,
+          "line": 12,
+          "col": 5,
+          "expr": "inputs.remote"
+        }
+      ]
+    },
+    "environment": null,
+    "pre": null,
+    "post": null,
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-08-30 16:29:02Z INFO ActionManager] Action __textbook_git-checkout-submodule-action (d67a9bbf-0424-50d4-7679-7df372696566) from repository 'textbook/git-checkout-submodule-action@2.1.1' needs to build image '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1/Dockerfile'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManager] Load action that reference repository from '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Ignore action property author.
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Ignore action property branding.
+[2021-08-30 16:29:02Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout submodules",
+  "description": "Recursively checks out any submodules in your repository",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 5,
+          "col": 3,
+          "lit": "remote"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "container",
+    "hasPre": false,
+    "hasPost": false,
+    "image": "Dockerfile",
+    "entryPoint": null,
+    "arguments": {
+      "type": 1,
+      "file": 3,
+      "line": 12,
+      "col": 3,
+      "seq": [
+        {
+          "type": 3,
+          "file": 3,
+          "line": 12,
+          "col": 5,
+          "expr": "inputs.remote"
+        }
+      ]
+    },
+    "environment": null,
+    "pre": null,
+    "post": null,
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-08-30 16:29:02Z INFO ActionManager] Action container Dockerfile/image: Dockerfile.
+[2021-08-30 16:29:02Z INFO ActionManager] Action container args:  {
+  "type": 1,
+  "file": 3,
+  "line": 12,
+  "col": 3,
+  "seq": [
+    {
+      "type": 3,
+      "file": 3,
+      "line": 12,
+      "col": 5,
+      "expr": "inputs.remote"
+    }
+  ]
+}.
+[2021-08-30 16:29:02Z INFO ActionManager] 1 steps need to build image from '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1/Dockerfile'
+[2021-08-30 16:29:02Z INFO DockerCommandManager] Which: 'docker'
+[2021-08-30 16:29:02Z INFO DockerCommandManager] Location: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO JobExtension] Adding .
+[2021-08-30 16:29:02Z INFO JobExtension] Adding .
+[2021-08-30 16:29:02Z INFO JobExtension] Adding .
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:02Z INFO JobExtension] Total accessible running process: 231.
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:02Z INFO JobRunner] Total job steps: 5.
+[2021-08-30 16:29:02Z INFO JobRunner] Run all job steps.
+[2021-08-30 16:29:02Z INFO StepsRunner] Processing step: DisplayName='Build textbook/git-checkout-submodule-action@2.1.1'
+[2021-08-30 16:29:02Z INFO StepsRunner] Evaluating: success()
+[2021-08-30 16:29:02Z INFO StepsRunner] Result: true
+[2021-08-30 16:29:02Z INFO StepsRunner] Starting the step.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'build -t e1ab19:5282916a72ef478e9c660ab7de777ee1 -f "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1/Dockerfile" "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1"'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5250.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5250, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5250 with exit code 0, and elapsed time 00:00:00.1006424.
+[2021-08-30 16:29:02Z INFO ActionManager] Prepared docker image 'e1ab19:5282916a72ef478e9c660ab7de777ee1' for action d67a9bbf-0424-50d4-7679-7df372696566 (/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/textbook/git-checkout-submodule-action/2.1.1/Dockerfile)
+[2021-08-30 16:29:02Z INFO StepsRunner] Step result: 
+[2021-08-30 16:29:02Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-08-30 16:29:02Z INFO StepsRunner] Current state: job state = ''
+[2021-08-30 16:29:02Z INFO StepsRunner] Processing step: DisplayName='Initialize containers'
+[2021-08-30 16:29:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a179b5aa-77bb-4a7c-9f99-b5aed0596950', success rate: 1/1.
+[2021-08-30 16:29:02Z INFO StepsRunner] Evaluating: success()
+[2021-08-30 16:29:02Z INFO StepsRunner] Result: true
+[2021-08-30 16:29:02Z INFO StepsRunner] Starting the step.
+[2021-08-30 16:29:02Z INFO ExecutionContext] Reserve record order 7 to 12 for post job actions.
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:02Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'version --format '{{.Server.APIVersion}}''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5265.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5265, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5265 with exit code 0, and elapsed time 00:00:00.0458068.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'version --format '{{.Client.APIVersion}}''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5282.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5282, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5282 with exit code 0, and elapsed time 00:00:00.0469231.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'ps --all --quiet --no-trunc --filter "label=e1ab19"'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5297.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5297, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5297 with exit code 0, and elapsed time 00:00:00.0307195.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'network prune --force --filter "label=e1ab19"'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5305.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5305, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5305 with exit code 0, and elapsed time 00:00:00.0308857.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'network create --label e1ab19 github_network_92443ab3ac75411c88d8b64b3f888323'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5314.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5314, waiting for process exit.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Finished process 5314 with exit code 0, and elapsed time 00:00:00.1396036.
+[2021-08-30 16:29:02Z INFO ContainerOperationProvider] Container name: f810d4e6d91e485f9571c3c541ffe7c6
+[2021-08-30 16:29:02Z INFO ContainerOperationProvider] Container image: cuaesd/aesd-autotest:assignment1
+[2021-08-30 16:29:02Z INFO ContainerOperationProvider] Container options: 
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Arguments: 'pull cuaesd/aesd-autotest:assignment1'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a179b5aa-77bb-4a7c-9f99-b5aed0596950', success rate: 1/1.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5357.
+[2021-08-30 16:29:02Z INFO ProcessInvokerWrapper] Process started with process id 5357, waiting for process exit.
+[2021-08-30 16:29:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '790701c3-0c68-4f2a-8bd9-d65b5cf62ddb', success rate: 1/1.
+[2021-08-30 16:29:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '790701c3-0c68-4f2a-8bd9-d65b5cf62ddb', success rate: 1/1.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Finished process 5357 with exit code 0, and elapsed time 00:00:01.0269051.
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Externals': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/externals'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Externals': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/externals'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Tools': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_tool'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Tools': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_tool'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:03Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Arguments: 'create --name f810d4e6d91e485f9571c3c541ffe7c6_cuaesdaesdautotestassignment1_f2759c --label e1ab19 --workdir /__w/assignment-1-rajatchaple/assignment-1-rajatchaple --network github_network_92443ab3ac75411c88d8b64b3f888323  -e "HOME=/github/home" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work":"/__w" -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/externals":"/__e":ro -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp":"/__w/_temp" -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions":"/__w/_actions" -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_tool":"/__w/_tool" -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp/_github_home":"/github/home" -v "/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp/_github_workflow":"/github/workflow" --entrypoint "tail" cuaesd/aesd-autotest:assignment1 "-f" "/dev/null"'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5395.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Process started with process id 5395, waiting for process exit.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Finished process 5395 with exit code 0, and elapsed time 00:00:00.1126421.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Arguments: 'start 242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5402.
+[2021-08-30 16:29:03Z INFO ProcessInvokerWrapper] Process started with process id 5402, waiting for process exit.
+[2021-08-30 16:29:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '790701c3-0c68-4f2a-8bd9-d65b5cf62ddb', success rate: 1/1.
+[2021-08-30 16:29:04Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Finished process 5402 with exit code 0, and elapsed time 00:00:00.6452586.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Arguments: 'ps --all --filter id=242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0 --filter status=running --no-trunc --format "{{.ID}} {{.Status}}"'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5498.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Process started with process id 5498, waiting for process exit.
+[2021-08-30 16:29:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '790701c3-0c68-4f2a-8bd9-d65b5cf62ddb', success rate: 1/1.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Finished process 5498 with exit code 0, and elapsed time 00:00:00.1498259.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Arguments: 'inspect --format "{{range .Config.Env}}{{println .}}{{end}}" 242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5505.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Process started with process id 5505, waiting for process exit.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Finished process 5505 with exit code 0, and elapsed time 00:00:00.1270461.
+[2021-08-30 16:29:04Z INFO StepsRunner] Step result: 
+[2021-08-30 16:29:04Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-08-30 16:29:04Z INFO StepsRunner] Current state: job state = ''
+[2021-08-30 16:29:04Z INFO StepsRunner] Processing step: DisplayName='Checkout submodules'
+[2021-08-30 16:29:04Z INFO StepsRunner] Evaluating: success()
+[2021-08-30 16:29:04Z INFO StepsRunner] Result: true
+[2021-08-30 16:29:04Z INFO StepsRunner] Starting the step.
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:04Z INFO ActionManager] Load action that reference repository from '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/actions/checkout/v2'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-08-30 16:29:04Z INFO ActionManager] Action pre node.js file: N/A.
+[2021-08-30 16:29:04Z INFO ActionManager] Action node.js file: dist/index.js.
+[2021-08-30 16:29:04Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:04Z INFO ActionRunner] Write event payload to /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp/_github_workflow/event.json
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:04Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "cu-ecen-aeld/assignment-1-rajatchaple"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2021-08-30 16:29:04Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2021-08-30 16:29:04Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command set-env
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command set-output
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command save-state
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command add-path
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command warning
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command error
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command notice
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command debug
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command group
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2021-08-30 16:29:04Z INFO ActionCommandManager] Register action command extension for command echo
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:04Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Arguments: 'exec  242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0 sh -c "cat /etc/*release | grep ^ID"'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5519.
+[2021-08-30 16:29:04Z INFO ProcessInvokerWrapper] Process started with process id 5519, waiting for process exit.
+[2021-08-30 16:29:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '790701c3-0c68-4f2a-8bd9-d65b5cf62ddb', success rate: 1/1.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Finished process 5519 with exit code 0, and elapsed time 00:00:00.1654904.
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Externals': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/externals'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Arguments: 'exec -i --workdir /__w/assignment-1-rajatchaple/assignment-1-rajatchaple -e INPUT_REPOSITORY -e INPUT_REF -e INPUT_TOKEN -e INPUT_SSH-KEY -e INPUT_SSH-KNOWN-HOSTS -e INPUT_SSH-STRICT -e INPUT_PERSIST-CREDENTIALS -e INPUT_PATH -e INPUT_CLEAN -e INPUT_FETCH-DEPTH -e INPUT_LFS -e INPUT_SUBMODULES -e GITHUB_JOB -e GITHUB_REF -e GITHUB_SHA -e GITHUB_REPOSITORY -e GITHUB_REPOSITORY_OWNER -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RETENTION_DAYS -e GITHUB_ACTOR -e GITHUB_WORKFLOW -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GITHUB_EVENT_NAME -e GITHUB_SERVER_URL -e GITHUB_API_URL -e GITHUB_GRAPHQL_URL -e GITHUB_WORKSPACE -e GITHUB_ACTION -e GITHUB_EVENT_PATH -e GITHUB_ACTION_REPOSITORY -e GITHUB_ACTION_REF -e GITHUB_PATH -e GITHUB_ENV -e RUNNER_OS -e RUNNER_TOOL_CACHE -e RUNNER_TEMP -e RUNNER_WORKSPACE -e ACTIONS_RUNTIME_URL -e ACTIONS_RUNTIME_TOKEN -e ACTIONS_CACHE_URL 242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0 /__e/node12/bin/node /__w/_actions/actions/checkout/v2/dist/index.js'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5548.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Process started with process id 5548, waiting for process exit.
+[2021-08-30 16:29:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5ae3cfb7-d7d4-55cf-e765-f7829c54f157', success rate: 1/1.
+[2021-08-30 16:29:05Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2021-08-30 16:29:05Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Finished process 5548 with exit code 1, and elapsed time 00:00:00.3741250.
+[2021-08-30 16:29:05Z INFO StepsRunner] Step result: Failed
+[2021-08-30 16:29:05Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2021-08-30 16:29:05Z INFO StepsRunner] Current state: job state = 'Failed'
+[2021-08-30 16:29:05Z INFO StepsRunner] Processing step: DisplayName='Run textbook/git-checkout-submodule-action@2.1.1'
+[2021-08-30 16:29:05Z INFO StepsRunner] Evaluating: success()
+[2021-08-30 16:29:05Z INFO StepsRunner] Result: false
+[2021-08-30 16:29:05Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2021-08-30 16:29:05Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2021-08-30 16:29:05Z INFO StepsRunner] Current state: job state = 'Failed'
+[2021-08-30 16:29:05Z INFO StepsRunner] Processing step: DisplayName='Run ./full-test.sh'
+[2021-08-30 16:29:05Z INFO StepsRunner] Evaluating: success()
+[2021-08-30 16:29:05Z INFO StepsRunner] Result: false
+[2021-08-30 16:29:05Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2021-08-30 16:29:05Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2021-08-30 16:29:05Z INFO StepsRunner] Current state: job state = 'Failed'
+[2021-08-30 16:29:05Z INFO StepsRunner] Processing step: DisplayName='Post Checkout submodules'
+[2021-08-30 16:29:05Z INFO StepsRunner] Evaluating: always()
+[2021-08-30 16:29:05Z INFO StepsRunner] Result: true
+[2021-08-30 16:29:05Z INFO StepsRunner] Starting the step.
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:05Z INFO ActionManager] Load action that reference repository from '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions/actions/checkout/v2'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Actions': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_actions'
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2021-08-30 16:29:05Z INFO ActionManager] Action pre node.js file: N/A.
+[2021-08-30 16:29:05Z INFO ActionManager] Action node.js file: dist/index.js.
+[2021-08-30 16:29:05Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:05Z INFO ActionRunner] Write event payload to /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp/_github_workflow/event.json
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Temp': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp'
+[2021-08-30 16:29:05Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "cu-ecen-aeld/assignment-1-rajatchaple"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2021-08-30 16:29:05Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2021-08-30 16:29:05Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command set-env
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command set-output
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command save-state
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command add-path
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command warning
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command error
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command notice
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command debug
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command group
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2021-08-30 16:29:05Z INFO ActionCommandManager] Register action command extension for command echo
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Arguments: 'exec  242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0 sh -c "cat /etc/*release | grep ^ID"'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5623.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Process started with process id 5623, waiting for process exit.
+[2021-08-30 16:29:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5ae3cfb7-d7d4-55cf-e765-f7829c54f157', success rate: 1/1.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Finished process 5623 with exit code 0, and elapsed time 00:00:00.1492508.
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Externals': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/externals'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:05Z INFO HostContext] Well known directory 'Work': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Arguments: 'exec -i --workdir /__w/assignment-1-rajatchaple/assignment-1-rajatchaple -e STATE_isPost -e STATE_repositoryPath -e INPUT_REPOSITORY -e INPUT_REF -e INPUT_TOKEN -e INPUT_SSH-KEY -e INPUT_SSH-KNOWN-HOSTS -e INPUT_SSH-STRICT -e INPUT_PERSIST-CREDENTIALS -e INPUT_PATH -e INPUT_CLEAN -e INPUT_FETCH-DEPTH -e INPUT_LFS -e INPUT_SUBMODULES -e GITHUB_JOB -e GITHUB_REF -e GITHUB_SHA -e GITHUB_REPOSITORY -e GITHUB_REPOSITORY_OWNER -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RETENTION_DAYS -e GITHUB_ACTOR -e GITHUB_WORKFLOW -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GITHUB_EVENT_NAME -e GITHUB_SERVER_URL -e GITHUB_API_URL -e GITHUB_GRAPHQL_URL -e GITHUB_WORKSPACE -e GITHUB_ACTION -e GITHUB_EVENT_PATH -e GITHUB_ACTION_REPOSITORY -e GITHUB_ACTION_REF -e GITHUB_PATH -e GITHUB_ENV -e RUNNER_OS -e RUNNER_TOOL_CACHE -e RUNNER_TEMP -e RUNNER_WORKSPACE -e ACTIONS_RUNTIME_URL -e ACTIONS_RUNTIME_TOKEN -e ACTIONS_CACHE_URL 242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0 /__e/node12/bin/node /__w/_actions/actions/checkout/v2/dist/index.js'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5654.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Process started with process id 5654, waiting for process exit.
+[2021-08-30 16:29:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'd9e390b1-0e84-4922-8d8e-d7536a45c42f', success rate: 1/1.
+[2021-08-30 16:29:05Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Finished process 5654 with exit code 0, and elapsed time 00:00:00.3152058.
+[2021-08-30 16:29:05Z INFO StepsRunner] Step result: 
+[2021-08-30 16:29:05Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-08-30 16:29:05Z INFO StepsRunner] Current state: job state = 'Failed'
+[2021-08-30 16:29:05Z INFO StepsRunner] Processing step: DisplayName='Stop containers'
+[2021-08-30 16:29:05Z INFO StepsRunner] Evaluating: always()
+[2021-08-30 16:29:05Z INFO StepsRunner] Result: true
+[2021-08-30 16:29:05Z INFO StepsRunner] Starting the step.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Arguments: 'rm --force 242cd806b6b68738d9de11ea8095b4ccd770ad5099b293c4df5c5557ef9d2ae0'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5719.
+[2021-08-30 16:29:05Z INFO ProcessInvokerWrapper] Process started with process id 5719, waiting for process exit.
+[2021-08-30 16:29:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'd9e390b1-0e84-4922-8d8e-d7536a45c42f', success rate: 1/1.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] Finished process 5719 with exit code 0, and elapsed time 00:00:00.2492043.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Arguments: 'network rm github_network_92443ab3ac75411c88d8b64b3f888323'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/assignment-1-rajatchaple/assignment-1-rajatchaple'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 5743.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] Process started with process id 5743, waiting for process exit.
+[2021-08-30 16:29:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'd9e390b1-0e84-4922-8d8e-d7536a45c42f', success rate: 1/1.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:06Z INFO ProcessInvokerWrapper] Finished process 5743 with exit code 0, and elapsed time 00:00:00.2011425.
+[2021-08-30 16:29:06Z INFO StepsRunner] Step result: 
+[2021-08-30 16:29:06Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2021-08-30 16:29:06Z INFO StepsRunner] Current state: job state = 'Failed'
+[2021-08-30 16:29:06Z INFO JobRunner] Finalize job.
+[2021-08-30 16:29:06Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:06Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:29:06Z INFO HostContext] Well known directory 'Diag': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_diag'
+[2021-08-30 16:29:06Z INFO JobExtension] Initialize Env context
+[2021-08-30 16:29:06Z INFO JobExtension] Initialize steps context
+[2021-08-30 16:29:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f165915d-0ddb-44e4-9419-bf22a241b8e7', success rate: 1/1.
+[2021-08-30 16:29:06Z INFO JobExtension] Total accessible running process: 234.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 2746 (kworker/2:0-events)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/2746/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/2746/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 3268 (kworker/0:2-cgroup_destroy)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/3268/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/3268/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 4326 (kworker/u8:2-events_power_efficient)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/4326/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/4326/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 5322 (systemd-udevd)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/5322/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/5322/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 5328 (systemd-udevd)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/5328/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/5328/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 5354 (nm-dispatcher)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/5354/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/5354/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobExtension] Inspecting process environment variables. PID: 5413 (systemd-udevd)
+[2021-08-30 16:29:06Z INFO LinuxProcessExtensions] Read env from /proc/5413/environ
+[2021-08-30 16:29:06Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/5413/environ' is denied.
+[2021-08-30 16:29:06Z INFO JobRunner] Job result after all job steps finish: Failed
+[2021-08-30 16:29:06Z INFO JobRunner] Completing the job execution context.
+[2021-08-30 16:29:06Z INFO JobRunner] Shutting down the job server queue.
+[2021-08-30 16:29:06Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2021-08-30 16:29:06Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2021-08-30 16:29:07Z INFO JobServerQueue] All queue process task stopped.
+[2021-08-30 16:29:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f165915d-0ddb-44e4-9419-bf22a241b8e7', success rate: 1/1.
+[2021-08-30 16:29:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8cde97b2-a485-4842-bfc4-e695cf9bf622', success rate: 1/1.
+[2021-08-30 16:29:07Z INFO JobServerQueue] Web console line queue drained.
+[2021-08-30 16:29:07Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2021-08-30 16:29:08Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2021-08-30 16:29:08Z INFO JobServerQueue] File upload queue drained.
+[2021-08-30 16:29:08Z INFO JobServerQueue] Timeline update queue drained.
+[2021-08-30 16:29:08Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2021-08-30 16:29:08Z INFO TempDirectoryManager] Cleaning runner temp folder: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/_work/_temp
+[2021-08-30 16:29:08Z INFO JobRunner] Raising job completed event.
+[2021-08-30 16:29:08Z INFO Worker] Job completed.

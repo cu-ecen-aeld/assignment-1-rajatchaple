@@ -1,0 +1,273 @@
+[2021-08-30 16:28:36Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-30 16:28:36Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2021-08-30 16:28:36Z INFO Listener] RuntimeInformation: Linux 5.11.0-27-generic #29~20.04.1-Ubuntu SMP Wed Aug 11 15:58:17 UTC 2021.
+[2021-08-30 16:28:36Z INFO Listener] Version: 2.280.3
+[2021-08-30 16:28:36Z INFO Listener] Commit: 409920e9f03bd38fe6e58807f069394993ce32e4
+[2021-08-30 16:28:36Z INFO Listener] Culture: en-IN
+[2021-08-30 16:28:36Z INFO Listener] UI Culture: en-IN
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO Listener] Validating directory permissions for: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO CommandLineParser] Parse
+[2021-08-30 16:28:36Z INFO CommandLineParser] Parsing 1 args
+[2021-08-30 16:28:36Z INFO CommandLineParser] parsing argument
+[2021-08-30 16:28:36Z INFO CommandLineParser] HasArgs: False
+[2021-08-30 16:28:36Z INFO CommandLineParser] Adding Command: run
+[2021-08-30 16:28:36Z INFO Listener] Arguments parsed
+[2021-08-30 16:28:36Z INFO Runner] ExecuteCommand
+[2021-08-30 16:28:36Z INFO ConfigurationStore] currentAssemblyLocation: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Listener.dll
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO ConfigurationStore] binPath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO ConfigurationStore] RootFolder: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO HostContext] Well known config file 'Runner': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.runner'
+[2021-08-30 16:28:36Z INFO ConfigurationStore] ConfigFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.runner
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-30 16:28:36Z INFO ConfigurationStore] CredFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_migrated'
+[2021-08-30 16:28:36Z INFO ConfigurationStore] MigratedCredFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_migrated
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:36Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:36Z INFO HostContext] Well known config file 'Service': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.service'
+[2021-08-30 16:28:36Z INFO ConfigurationStore] ServiceConfigFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.service
+[2021-08-30 16:28:36Z INFO CommandSettings] Flag 'help': 'False'
+[2021-08-30 16:28:36Z INFO CommandSettings] Flag 'version': 'False'
+[2021-08-30 16:28:36Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-08-30 16:28:36Z INFO CommandSettings] Flag 'check': 'False'
+[2021-08-30 16:28:36Z INFO CommandSettings] Command 'configure': 'False'
+[2021-08-30 16:28:36Z INFO CommandSettings] Command 'remove': 'False'
+[2021-08-30 16:28:36Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-08-30 16:28:36Z INFO ConfigurationManager] LoadSettings
+[2021-08-30 16:28:36Z INFO ConfigurationStore] IsConfigured()
+[2021-08-30 16:28:36Z INFO ConfigurationStore] IsConfigured: True
+[2021-08-30 16:28:36Z INFO ConfigurationManager] Is configured: True
+[2021-08-30 16:28:36Z INFO ConfigurationStore] Read setting file: 299 chars
+[2021-08-30 16:28:37Z INFO ConfigurationManager] Settings Loaded
+[2021-08-30 16:28:37Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-08-30 16:28:37Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-08-30 16:28:37Z INFO CommandSettings] Command 'run': 'True'
+[2021-08-30 16:28:37Z INFO ConfigurationStore] IsConfigured()
+[2021-08-30 16:28:37Z INFO ConfigurationStore] IsConfigured: True
+[2021-08-30 16:28:37Z INFO ConfigurationManager] Is configured: True
+[2021-08-30 16:28:37Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-08-30 16:28:37Z INFO Runner] Set runner startup type - Manual
+[2021-08-30 16:28:37Z INFO CommandSettings] Flag 'once': 'False'
+[2021-08-30 16:28:37Z INFO Runner] RunAsync
+[2021-08-30 16:28:37Z INFO ConfigurationManager] LoadSettings
+[2021-08-30 16:28:37Z INFO ConfigurationStore] IsConfigured()
+[2021-08-30 16:28:37Z INFO ConfigurationStore] IsConfigured: True
+[2021-08-30 16:28:37Z INFO ConfigurationManager] Is configured: True
+[2021-08-30 16:28:37Z INFO ConfigurationManager] Settings Loaded
+[2021-08-30 16:28:37Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "rajat",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple",
+  "WorkFolder": "_work"
+}
+[2021-08-30 16:28:37Z INFO MessageListener] Loading Credentials
+[2021-08-30 16:28:37Z INFO ConfigurationStore] HasCredentials()
+[2021-08-30 16:28:37Z INFO ConfigurationStore] stored True
+[2021-08-30 16:28:37Z INFO CredentialManager] GetCredentialProvider
+[2021-08-30 16:28:37Z INFO CredentialManager] Creating type OAuth
+[2021-08-30 16:28:37Z INFO CredentialManager] Creating credential type: OAuth
+[2021-08-30 16:28:37Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:37Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-30 16:28:37Z INFO HostContext] Well known config file 'RSACredentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams'
+[2021-08-30 16:28:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:28:37Z INFO MessageListener] Attempt to create session.
+[2021-08-30 16:28:37Z INFO MessageListener] Connecting to the Runner Server...
+[2021-08-30 16:28:37Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-08-30 16:28:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-30 16:28:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-08-30 16:28:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-30 16:28:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-08-30 16:28:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-30 16:28:37Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-30 16:28:37Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-30 16:28:37Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-30 16:28:38Z INFO MessageListener] VssConnection created
+[2021-08-30 16:28:38Z INFO Terminal] WRITE LINE: 
+[2021-08-30 16:28:38Z INFO Terminal] WRITE LINE: 
+[2021-08-30 16:28:38Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: eab61a8e-7636-4d6a-8daf-18c09d000bfb
+ActivityId: 2e4824cd-41f6-4e05-b2f9-3a3bc53f8809
+X-TFS-Session: 11de80f0-badb-4f1e-a2e5-acf4ae773762
+X-VSS-E2EID: 04bab1d7-75d6-4d3f-b984-2cc37f854c1c
+X-VSS-SenderDeploymentId: 6074703f-c195-632a-bd61-21691fc86fa5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D35AEF5F4A5C44768E38FAF1F55D9F20 Ref B: DNAEDGE0311 Ref C: 2021-08-30T16:28:38Z
+Date: Mon, 30 Aug 2021 16:28:38 GMT
+
+[2021-08-30 16:28:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:28:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:28:38Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-08-30 16:28:38Z INFO MessageListener] Session created.
+[2021-08-30 16:28:38Z INFO Terminal] WRITE LINE: 2021-08-30 16:28:38Z: Listening for Jobs
+[2021-08-30 16:28:38Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-08-30 16:28:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:28:43Z INFO MessageListener] Message '5' received from session '065ceb3b-bc83-44cf-bad0-afba8e0d521b'.
+[2021-08-30 16:28:43Z INFO JobDispatcher] Job request 5 for plan 0b0531e6-68c2-469d-b9e6-553586f361c2 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2021-08-30 16:28:43Z INFO JobDispatcher] Pull OrchestrationId 0b0531e6-68c2-469d-b9e6-553586f361c2.unit-test.__default from JWT claims
+[2021-08-30 16:28:43Z INFO Terminal] WRITE LINE: 2021-08-30 16:28:43Z: Running job: unit-test
+[2021-08-30 16:28:43Z INFO JobDispatcher] Start renew job request 5 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-30 16:28:43Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 30/08/2021 4:38:43 pm
+[2021-08-30 16:28:43Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   File name: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-08-30 16:28:43Z INFO ProcessInvokerWrapper] Process started with process id 4675, waiting for process exit.
+[2021-08-30 16:28:43Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-30 16:28:43Z INFO ProcessChannel] Sending message of length 22011, with hash 'fe77aa1bfb6af24a485990c7f7323142d37588f23f9de2759ee614cdd5e476f3'
+[2021-08-30 16:28:43Z INFO JobNotification] Entering JobStarted Notification
+[2021-08-30 16:28:43Z INFO JobNotification] Entering StartMonitor
+[2021-08-30 16:28:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:28:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:28:54Z INFO ProcessInvokerWrapper] Finished process 4675 with exit code 102, and elapsed time 00:00:10.7815579.
+[2021-08-30 16:28:54Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2021-08-30 16:28:54Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2021-08-30 16:28:54Z INFO Terminal] WRITE LINE: 2021-08-30 16:28:54Z: Job unit-test completed with result: Failed
+[2021-08-30 16:28:54Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-30 16:28:54Z INFO JobDispatcher] job renew has been canceled, stop renew job request 5.
+[2021-08-30 16:28:54Z INFO JobNotification] Entering JobCompleted Notification
+[2021-08-30 16:28:54Z INFO JobNotification] Entering EndMonitor
+[2021-08-30 16:28:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:28:58Z INFO MessageListener] Message '6' received from session '065ceb3b-bc83-44cf-bad0-afba8e0d521b'.
+[2021-08-30 16:28:58Z INFO JobDispatcher] Job request 6 for plan 0b0531e6-68c2-469d-b9e6-553586f361c2 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2021-08-30 16:28:58Z INFO JobDispatcher] Pull OrchestrationId 0b0531e6-68c2-469d-b9e6-553586f361c2.full-test.__default from JWT claims
+[2021-08-30 16:28:58Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2021-08-30 16:28:58Z INFO Terminal] WRITE LINE: 2021-08-30 16:28:58Z: Running job: full-test
+[2021-08-30 16:28:58Z INFO JobDispatcher] Start renew job request 6 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-30 16:28:58Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 30/08/2021 4:38:58 pm
+[2021-08-30 16:28:58Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   File name: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-08-30 16:28:58Z INFO ProcessInvokerWrapper] Process started with process id 5227, waiting for process exit.
+[2021-08-30 16:28:58Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-30 16:28:58Z INFO ProcessChannel] Sending message of length 22016, with hash '1d0fbd7bc374059ffb3ed554da0cfb4cdfc85c16e12055c6716a643a66dcb560'
+[2021-08-30 16:28:58Z INFO JobNotification] Entering JobStarted Notification
+[2021-08-30 16:28:58Z INFO JobNotification] Entering StartMonitor
+[2021-08-30 16:29:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:08Z INFO ProcessInvokerWrapper] Finished process 5227 with exit code 102, and elapsed time 00:00:10.6527434.
+[2021-08-30 16:29:08Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2021-08-30 16:29:08Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2021-08-30 16:29:08Z INFO Terminal] WRITE LINE: 2021-08-30 16:29:08Z: Job full-test completed with result: Failed
+[2021-08-30 16:29:08Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-30 16:29:08Z INFO JobDispatcher] job renew has been canceled, stop renew job request 6.
+[2021-08-30 16:29:08Z INFO JobNotification] Entering JobCompleted Notification
+[2021-08-30 16:29:08Z INFO JobNotification] Entering EndMonitor
+[2021-08-30 16:29:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:29:12Z INFO MessageListener] Message '7' received from session '065ceb3b-bc83-44cf-bad0-afba8e0d521b'.
+[2021-08-30 16:29:12Z INFO JobDispatcher] Job request 7 for plan 1519a29b-c1e9-4b1b-be43-8faff1ffc47d job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2021-08-30 16:29:12Z INFO JobDispatcher] Pull OrchestrationId 1519a29b-c1e9-4b1b-be43-8faff1ffc47d.unit-test.__default from JWT claims
+[2021-08-30 16:29:12Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2021-08-30 16:29:12Z INFO Terminal] WRITE LINE: 2021-08-30 16:29:12Z: Running job: unit-test
+[2021-08-30 16:29:12Z INFO JobDispatcher] Start renew job request 7 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-30 16:29:12Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 30/08/2021 4:39:12 pm
+[2021-08-30 16:29:12Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   File name: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-08-30 16:29:12Z INFO ProcessInvokerWrapper] Process started with process id 5783, waiting for process exit.
+[2021-08-30 16:29:12Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-30 16:29:12Z INFO ProcessChannel] Sending message of length 22018, with hash 'ec55807965d989b4bb76c186c54409413b7d7c73138ac8ae9966946d1667f2e5'
+[2021-08-30 16:29:12Z INFO JobNotification] Entering JobStarted Notification
+[2021-08-30 16:29:12Z INFO JobNotification] Entering StartMonitor
+[2021-08-30 16:29:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:22Z INFO ProcessInvokerWrapper] Finished process 5783 with exit code 102, and elapsed time 00:00:09.7932725.
+[2021-08-30 16:29:22Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2021-08-30 16:29:22Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2021-08-30 16:29:22Z INFO Terminal] WRITE LINE: 2021-08-30 16:29:22Z: Job unit-test completed with result: Failed
+[2021-08-30 16:29:22Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-30 16:29:22Z INFO JobDispatcher] job renew has been canceled, stop renew job request 7.
+[2021-08-30 16:29:22Z INFO JobNotification] Entering JobCompleted Notification
+[2021-08-30 16:29:22Z INFO JobNotification] Entering EndMonitor
+[2021-08-30 16:29:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-30 16:29:25Z INFO MessageListener] Message '8' received from session '065ceb3b-bc83-44cf-bad0-afba8e0d521b'.
+[2021-08-30 16:29:25Z INFO JobDispatcher] Job request 8 for plan 1519a29b-c1e9-4b1b-be43-8faff1ffc47d job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2021-08-30 16:29:25Z INFO JobDispatcher] Pull OrchestrationId 1519a29b-c1e9-4b1b-be43-8faff1ffc47d.full-test.__default from JWT claims
+[2021-08-30 16:29:25Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2021-08-30 16:29:25Z INFO Terminal] WRITE LINE: 2021-08-30 16:29:25Z: Running job: full-test
+[2021-08-30 16:29:25Z INFO JobDispatcher] Start renew job request 8 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-30 16:29:25Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 30/08/2021 4:39:25 pm
+[2021-08-30 16:29:25Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   File name: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-08-30 16:29:25Z INFO ProcessInvokerWrapper] Process started with process id 6332, waiting for process exit.
+[2021-08-30 16:29:25Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-30 16:29:25Z INFO ProcessChannel] Sending message of length 22023, with hash '0f20b1a5e0e7c473c99c4435b51406a8c11fe0cc97bfa4e47e355d039c0ad0eb'
+[2021-08-30 16:29:25Z INFO JobNotification] Entering JobStarted Notification
+[2021-08-30 16:29:25Z INFO JobNotification] Entering StartMonitor
+[2021-08-30 16:29:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-30 16:29:35Z INFO ProcessInvokerWrapper] Finished process 6332 with exit code 102, and elapsed time 00:00:10.5497851.
+[2021-08-30 16:29:35Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2021-08-30 16:29:35Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2021-08-30 16:29:35Z INFO Terminal] WRITE LINE: 2021-08-30 16:29:35Z: Job full-test completed with result: Failed
+[2021-08-30 16:29:35Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-30 16:29:35Z INFO JobDispatcher] job renew has been canceled, stop renew job request 8.
+[2021-08-30 16:29:35Z INFO JobNotification] Entering JobCompleted Notification
+[2021-08-30 16:29:35Z INFO JobNotification] Entering EndMonitor
+[2021-08-30 16:35:01Z INFO Terminal] WRITE LINE: Exiting...
+[2021-08-30 16:35:01Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-08-30 16:35:01Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-08-30 16:35:01Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-08-30 16:35:01Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/_apis/distributedtask/pools/1/messages?sessionId=065ceb3b-bc83-44cf-bad0-afba8e0d521b&lastMessageId=8 has been cancelled.
+[2021-08-30 16:35:01Z INFO MessageListener] Get next message has been cancelled.
+[2021-08-30 16:35:01Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2021-08-30 16:35:01Z INFO JobDispatcher] Ensure WorkerDispather for job a047640a-23da-5e9b-1ef8-917a09b3753a run to finish, cancel any running job.
+[2021-08-30 16:35:01Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2021-08-30 16:35:02Z INFO Listener] Runner execution been cancelled.
