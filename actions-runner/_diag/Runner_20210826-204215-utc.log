@@ -1,0 +1,285 @@
+[2021-08-26 20:42:15Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-08-26 20:42:15Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:15Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:15Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-26 20:42:16Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2021-08-26 20:42:16Z INFO Listener] RuntimeInformation: Linux 5.11.0-27-generic #29~20.04.1-Ubuntu SMP Wed Aug 11 15:58:17 UTC 2021.
+[2021-08-26 20:42:16Z INFO Listener] Version: 2.280.3
+[2021-08-26 20:42:16Z INFO Listener] Commit: 409920e9f03bd38fe6e58807f069394993ce32e4
+[2021-08-26 20:42:16Z INFO Listener] Culture: en-IN
+[2021-08-26 20:42:16Z INFO Listener] UI Culture: en-IN
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO Listener] Validating directory permissions for: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO CommandLineParser] Parse
+[2021-08-26 20:42:16Z INFO CommandLineParser] Parsing 1 args
+[2021-08-26 20:42:16Z INFO CommandLineParser] parsing argument
+[2021-08-26 20:42:16Z INFO CommandLineParser] HasArgs: False
+[2021-08-26 20:42:16Z INFO CommandLineParser] Adding Command: run
+[2021-08-26 20:42:16Z INFO Listener] Arguments parsed
+[2021-08-26 20:42:16Z INFO Runner] ExecuteCommand
+[2021-08-26 20:42:16Z INFO ConfigurationStore] currentAssemblyLocation: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Listener.dll
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] binPath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] RootFolder: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO HostContext] Well known config file 'Runner': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.runner'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] ConfigFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.runner
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO HostContext] Well known config file 'Credentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] CredFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_migrated'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] MigratedCredFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_migrated
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO HostContext] Well known config file 'Service': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.service'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] ServiceConfigFilePath: /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.service
+[2021-08-26 20:42:16Z INFO CommandSettings] Flag 'help': 'False'
+[2021-08-26 20:42:16Z INFO CommandSettings] Flag 'version': 'False'
+[2021-08-26 20:42:16Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-08-26 20:42:16Z INFO CommandSettings] Flag 'check': 'False'
+[2021-08-26 20:42:16Z INFO CommandSettings] Command 'configure': 'False'
+[2021-08-26 20:42:16Z INFO CommandSettings] Command 'remove': 'False'
+[2021-08-26 20:42:16Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-08-26 20:42:16Z INFO ConfigurationManager] LoadSettings
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsConfigured()
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsConfigured: True
+[2021-08-26 20:42:16Z INFO ConfigurationManager] Is configured: True
+[2021-08-26 20:42:16Z INFO ConfigurationStore] Read setting file: 299 chars
+[2021-08-26 20:42:16Z INFO ConfigurationManager] Settings Loaded
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-08-26 20:42:16Z INFO CommandSettings] Command 'run': 'True'
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsConfigured()
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsConfigured: True
+[2021-08-26 20:42:16Z INFO ConfigurationManager] Is configured: True
+[2021-08-26 20:42:16Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-08-26 20:42:16Z INFO Runner] Set runner startup type - Manual
+[2021-08-26 20:42:16Z INFO CommandSettings] Flag 'once': 'False'
+[2021-08-26 20:42:16Z INFO Runner] RunAsync
+[2021-08-26 20:42:16Z INFO ConfigurationManager] LoadSettings
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsConfigured()
+[2021-08-26 20:42:16Z INFO ConfigurationStore] IsConfigured: True
+[2021-08-26 20:42:16Z INFO ConfigurationManager] Is configured: True
+[2021-08-26 20:42:16Z INFO ConfigurationManager] Settings Loaded
+[2021-08-26 20:42:16Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "rajat",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple",
+  "WorkFolder": "_work"
+}
+[2021-08-26 20:42:16Z INFO MessageListener] Loading Credentials
+[2021-08-26 20:42:16Z INFO ConfigurationStore] HasCredentials()
+[2021-08-26 20:42:16Z INFO ConfigurationStore] stored True
+[2021-08-26 20:42:16Z INFO CredentialManager] GetCredentialProvider
+[2021-08-26 20:42:16Z INFO CredentialManager] Creating type OAuth
+[2021-08-26 20:42:16Z INFO CredentialManager] Creating credential type: OAuth
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:16Z INFO HostContext] Well known directory 'Root': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner'
+[2021-08-26 20:42:16Z INFO HostContext] Well known config file 'RSACredentials': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams'
+[2021-08-26 20:42:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-26 20:42:16Z INFO MessageListener] Attempt to create session.
+[2021-08-26 20:42:16Z INFO MessageListener] Connecting to the Runner Server...
+[2021-08-26 20:42:16Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-08-26 20:42:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-26 20:42:16Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-08-26 20:42:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-26 20:42:16Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-08-26 20:42:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-26 20:42:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-26 20:42:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-26 20:42:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-26 20:42:17Z INFO MessageListener] VssConnection created
+[2021-08-26 20:42:17Z INFO Terminal] WRITE LINE: 
+[2021-08-26 20:42:17Z INFO Terminal] WRITE LINE: 
+[2021-08-26 20:42:17Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64b1126-ad76-42c6-aa80-762c0840d53a
+ActivityId: 5f97968e-a813-4b8e-805e-7f71f9bf521e
+X-TFS-Session: 18ef8b7a-250d-4400-9358-23bcd4836912
+X-VSS-E2EID: c6950679-1166-4044-a32d-508024a46b9a
+X-VSS-SenderDeploymentId: 6074703f-c195-632a-bd61-21691fc86fa5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: A87E74EE98B8450FB8D0B92CA57F00F2 Ref B: DM2EDGE0512 Ref C: 2021-08-26T20:42:17Z
+Date: Thu, 26 Aug 2021 20:42:17 GMT
+
+[2021-08-26 20:42:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-26 20:42:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-26 20:42:18Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-08-26 20:42:18Z INFO MessageListener] Session created.
+[2021-08-26 20:42:18Z INFO Terminal] WRITE LINE: 2021-08-26 20:42:18Z: Listening for Jobs
+[2021-08-26 20:42:18Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-08-26 20:42:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-26 20:42:21Z INFO MessageListener] Message '1' received from session 'fd85881e-bafb-4ff7-9fcb-6a759835c2ad'.
+[2021-08-26 20:42:22Z INFO JobDispatcher] Job request 1 for plan 02088fd5-ff0e-4814-aeda-ce5bab53de92 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2021-08-26 20:42:22Z INFO JobDispatcher] Pull OrchestrationId 02088fd5-ff0e-4814-aeda-ce5bab53de92.full-test.__default from JWT claims
+[2021-08-26 20:42:22Z INFO Terminal] WRITE LINE: 2021-08-26 20:42:22Z: Running job: full-test
+[2021-08-26 20:42:22Z INFO JobDispatcher] Start renew job request 1 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-26 20:42:22Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 26/08/2021 8:52:22 pm
+[2021-08-26 20:42:22Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   File name: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-08-26 20:42:22Z INFO ProcessInvokerWrapper] Process started with process id 2727, waiting for process exit.
+[2021-08-26 20:42:22Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-26 20:42:22Z INFO ProcessChannel] Sending message of length 35134, with hash '0f832e60fb80aadac7dd0120e41d73928dec4cdaed2da183e3d01161a7d99bcb'
+[2021-08-26 20:42:22Z INFO JobNotification] Entering JobStarted Notification
+[2021-08-26 20:42:22Z INFO JobNotification] Entering StartMonitor
+[2021-08-26 20:43:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-26 20:43:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-26 20:43:21Z INFO ProcessInvokerWrapper] Finished process 2727 with exit code 102, and elapsed time 00:00:59.7162338.
+[2021-08-26 20:43:21Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2021-08-26 20:43:21Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2021-08-26 20:43:21Z INFO Terminal] WRITE LINE: 2021-08-26 20:43:21Z: Job full-test completed with result: Failed
+[2021-08-26 20:43:21Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2021-08-26 20:43:21Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
+[2021-08-26 20:43:21Z INFO JobNotification] Entering JobCompleted Notification
+[2021-08-26 20:43:21Z INFO JobNotification] Entering EndMonitor
+[2021-08-26 20:43:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-26 20:43:24Z INFO MessageListener] Message '2' received from session 'fd85881e-bafb-4ff7-9fcb-6a759835c2ad'.
+[2021-08-26 20:43:24Z INFO JobDispatcher] Job request 2 for plan 02088fd5-ff0e-4814-aeda-ce5bab53de92 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2021-08-26 20:43:24Z INFO JobDispatcher] Pull OrchestrationId 02088fd5-ff0e-4814-aeda-ce5bab53de92.unit-test.__default from JWT claims
+[2021-08-26 20:43:24Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2021-08-26 20:43:24Z INFO Terminal] WRITE LINE: 2021-08-26 20:43:24Z: Running job: unit-test
+[2021-08-26 20:43:24Z INFO JobDispatcher] Start renew job request 2 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-26 20:43:25Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 26/08/2021 8:53:24 pm
+[2021-08-26 20:43:25Z INFO HostContext] Well known directory 'Bin': '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper] Starting process:
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   File name: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin/Runner.Worker'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 100 103'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Working directory: '/home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/bin'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-08-26 20:43:25Z INFO ProcessInvokerWrapper] Process started with process id 3987, waiting for process exit.
+[2021-08-26 20:43:25Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-26 20:43:25Z INFO ProcessChannel] Sending message of length 35131, with hash 'a22a19ff43d56516a5f44768445f545bfc9f844894f4a79509de2ffcbf74eeff'
+[2021-08-26 20:43:25Z INFO JobNotification] Entering JobStarted Notification
+[2021-08-26 20:43:25Z INFO JobNotification] Entering StartMonitor
+[2021-08-26 20:43:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-26 20:43:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-08-26 20:43:41Z INFO ProcessInvokerWrapper] Finished process 3987 with exit code 102, and elapsed time 00:00:16.3522759.
+[2021-08-26 20:43:41Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2021-08-26 20:43:41Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2021-08-26 20:43:41Z INFO Terminal] WRITE LINE: 2021-08-26 20:43:41Z: Job unit-test completed with result: Failed
+[2021-08-26 20:43:41Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2021-08-26 20:43:41Z INFO JobDispatcher] job renew has been canceled, stop renew job request 2.
+[2021-08-26 20:43:41Z INFO JobNotification] Entering JobCompleted Notification
+[2021-08-26 20:43:41Z INFO JobNotification] Entering EndMonitor
+[2021-08-26 21:13:29Z INFO MessageListener] No message retrieved from session 'fd85881e-bafb-4ff7-9fcb-6a759835c2ad' within last 30 minutes.
+[2021-08-26 22:38:56Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/_apis/distributedtask/pools/1/messages?sessionId=fd85881e-bafb-4ff7-9fcb-6a759835c2ad&lastMessageId=2 timed out after 60 seconds.
+[2021-08-26 22:38:56Z ERR  MessageListener] Catch exception during get next message.
+[2021-08-26 22:38:56Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2021-08-26 22:38:56Z ERR  MessageListener] #####################################################
+[2021-08-26 22:38:56Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2021-08-26 22:38:56Z ERR  MessageListener] #####################################################
+[2021-08-26 22:38:56Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+[2021-08-26 22:38:56Z ERR  MessageListener] #####################################################
+[2021-08-26 22:38:56Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2021-08-26 22:38:56Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2021-08-26 22:38:56Z ERR  Terminal] WRITE ERROR: 2021-08-26 22:38:56Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2021-08-26 22:38:56Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2021-08-26 22:38:56Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-08-26 22:38:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-08-26 22:38:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-08-26 22:38:57Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2021-08-26 22:39:23Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: eab61a8e-7636-4d6a-8daf-18c09d000bfb
+ActivityId: 29f1af7c-41f6-4e05-b2f9-3a3bc53f8809
+X-TFS-Session: 18ef8b7a-250d-4400-9358-23bcd4836912
+X-VSS-E2EID: ed1bb6ec-d36f-4aad-9815-1ba02cd37315
+X-VSS-SenderDeploymentId: 6074703f-c195-632a-bd61-21691fc86fa5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 6C3B13B98E394192AFB9F5B67428E218 Ref B: DM2EDGE0318 Ref C: 2021-08-26T22:39:23Z
+Date: Thu, 26 Aug 2021 22:39:22 GMT
+
+[2021-08-26 22:39:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/rajat/cu_boulder/fall21/aesd/assignments/assignment1/assignment-1-rajatchaple/actions-runner/.credentials_rsaparams
+[2021-08-26 22:39:23Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-08-26 22:40:13Z INFO Terminal] WRITE LINE: 2021-08-26 22:40:13Z: Runner reconnected.
+[2021-08-26 22:51:05Z INFO MessageListener] No message retrieved from session 'fd85881e-bafb-4ff7-9fcb-6a759835c2ad' within last 30 minutes.
+[2021-08-26 22:59:52Z INFO Terminal] WRITE LINE: Exiting...
+[2021-08-26 22:59:52Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-08-26 22:59:52Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-08-26 22:59:52Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2021-08-26 22:59:52Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd/_apis/distributedtask/pools/1/messages?sessionId=fd85881e-bafb-4ff7-9fcb-6a759835c2ad&lastMessageId=2 has been cancelled.
+[2021-08-26 22:59:52Z INFO MessageListener] Get next message has been cancelled.
+[2021-08-26 22:59:52Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2021-08-26 22:59:52Z INFO JobDispatcher] Ensure WorkerDispather for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 run to finish, cancel any running job.
+[2021-08-26 22:59:52Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2021-08-26 22:59:52Z INFO Listener] Runner execution been cancelled.

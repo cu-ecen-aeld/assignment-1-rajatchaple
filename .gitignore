@@ -1,6 +1,7 @@
 *.o
 writer
 Test_*_Runner.c
+actions-runner/
 build/
 crosstool-ng
 aesd-build

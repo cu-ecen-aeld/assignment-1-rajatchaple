@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "rajat",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/EFwK3ubGvYg2F6q8diF5509hVx8J24H4Xv61sbF8aC0KR0hXcd",
+  "gitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-rajatchaple",
+  "workFolder": "_work"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "cu-ecen-aeld/assignment-1-rajatchaple",
+  "pipelineDirectory": "assignment-1-rajatchaple",
+  "workspaceDirectory": "assignment-1-rajatchaple/assignment-1-rajatchaple",
+  "repositories": {
+    "cu-ecen-aeld/assignment-1-rajatchaple": {
+      "repositoryPath": "assignment-1-rajatchaple/assignment-1-rajatchaple",
+      "lastRunOn": "08/27/2021 02:12:24 +05:30"
+    }
+  },
+  "lastRunOn": "08/27/2021 02:13:26 +05:30"
+}
