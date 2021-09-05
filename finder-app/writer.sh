@@ -14,6 +14,5 @@ writefile=$1
 writestr=$2
 
 ret=$(printf $writestr > $writefile)
-echo "remaining check of whether file creation succeeded"
 echo $ret
 
